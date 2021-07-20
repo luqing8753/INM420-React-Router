@@ -1,0 +1,157 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-size: 1rem;
+
+}
+
+.App {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.profile-picture {
+    margin-top: 60px;
+    height: 50vmin;
+    pointer-events: none;
+    border: solid white 15px;
+}
+
+.App-body {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.app-profile {
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: calc(10px + 1vmin);
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.about {
+    background-color: #282c34;
+
+}
+.App-profile-picture {
+    width: 90%;
+}
+.introduction {
+    width: 90%;
+    text-align: left;
+
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin: 40px;
+    grid-gap: 20px;
+    justify-items: start;
+    align-items: center;
+
+}
+.contact-info .icon {
+    height: 5vmin;
+
+}
+
+.App-link {
+    color: white;
+    text-decoration: none;
+
+}
+.project-content {
+    margin-top: 60px;
+}
+.project-title {
+    font-size: 1.6rem;
+}
+.art-icon {
+    height: 50vmin;
+    pointer-events: none;
+}
+.brand-book {
+    height: 30vmin;
+    pointer-events: none;
+}
+.description {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+@media (min-width: 650px) {
+    nav ul li {
+        margin-left: 40px;
+        margin-right: 40px;
+
+        font-size: 1.6rem;
+
+    }
+    .app-profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-left: 200px;
+        margin-right: 200px;
+
+    }
+    .profile-picture {
+
+        height: 55vmin;
+        pointer-events: none;
+        border: solid white 15px;
+    }
+    .App-profile-picture {
+        width: 35%;
+    }
+    .introduction {
+        width: 65%;
+    }
+    .description {
+        padding-left: 144px;
+        padding-right: 144px;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .project-title {
+        font-size: 3rem;
+    }
+    .brand-book {
+        height: 62vmin;
+        pointer-events: none;
+    }
+    .project-content {
+        margin-top: 100px;
+    }
+}
